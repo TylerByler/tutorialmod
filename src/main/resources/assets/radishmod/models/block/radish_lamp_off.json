@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "radishmod:block/radish_lamp_off"
+  }
+}

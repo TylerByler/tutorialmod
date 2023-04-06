@@ -1,0 +1,6 @@
+{
+  "variants" : {
+    "lit=true": { "model": "radishmod:block/radish_lamp_on"},
+    "lit=false": { "model": "radishmod:block/radish_lamp_off"}
+  }
+}

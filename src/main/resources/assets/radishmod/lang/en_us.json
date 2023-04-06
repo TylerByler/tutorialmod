@@ -1,0 +1,15 @@
+{
+  "item.radishmod.radish": "Radish",
+  "item.radishmod.eight_ball": "Magic Eight Ball",
+  "item.radishmod.radish_seeds": "Radish Seeds",
+  "item.radishmod.radscal_spawn_egg": "Radscal Spawn Egg",
+
+  "block.radishmod.compact_radish": "Compact Radishes",
+  "block.radishmod.jumpy_block": "Jumpy Block",
+  "block.radishmod.radish_lamp": "Radish Lamp",
+  "block.radishmod.radish_crop": "Radish Crop Block",
+
+  "creativemodetab.radish_tab": "Radish Mod",
+
+  "entity.radishmod.radscal": "Radscal"
+}
