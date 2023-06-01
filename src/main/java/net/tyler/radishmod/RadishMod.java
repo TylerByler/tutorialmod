@@ -18,6 +18,7 @@ import net.tyler.radishmod.common.items.ModCreativeModeTabs;
 import net.tyler.radishmod.common.items.ModItems;
 import net.tyler.radishmod.entity.ModEntities;
 import net.tyler.radishmod.entity.client.RadscalRenderer;
+import net.tyler.radishmod.entity.client.LuoboRenderer;
 import org.slf4j.Logger;
 import software.bernie.geckolib.GeckoLib;
 
@@ -63,6 +64,7 @@ public class RadishMod
             event.accept(ModItems.RADISH_SEEDS);
             event.accept(ModBlocks.COMPACT_RADISH);
             event.accept(ModItems.RADSCAL_SPAWN_EGG);
+            event.accept(ModItems.LUOBO_SPAWN_EGG);
         }
     }
 
@@ -78,6 +80,7 @@ public class RadishMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             EntityRenderers.register(ModEntities.RADSCAL.get(), RadscalRenderer::new);
+            EntityRenderers.register(ModEntities.LUOBO.get(), LuoboRenderer::new);
         }
     }
 }

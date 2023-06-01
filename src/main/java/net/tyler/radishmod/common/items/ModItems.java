@@ -26,6 +26,9 @@ public class ModItems {
     public static final RegistryObject<Item> RADSCAL_SPAWN_EGG = ITEMS.register("radscal_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RADSCAL, 0xAB3636, 0x269B41, new Item.Properties()));
 
+    public static final RegistryObject<Item> LUOBO_SPAWN_EGG = ITEMS.register("luobo_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.LUOBO,0x5c7b0f, 0xd1c5b3, new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.tyler.radishmod.RadishMod;
+import net.tyler.radishmod.entity.custom.LuoboEntity;
 import net.tyler.radishmod.entity.custom.RadscalEntity;
 
 public class ModEntities {
@@ -19,6 +20,12 @@ public class ModEntities {
                     () -> EntityType.Builder.of(RadscalEntity::new, MobCategory.MONSTER)
                             .sized(.6f,.8f)
                             .build(new ResourceLocation(RadishMod.MOD_ID,"radscal").toString()));
+
+    public static final RegistryObject<EntityType<LuoboEntity>> LUOBO =
+            ENTITY_TYPES.register("luobo",
+                    () -> EntityType.Builder.of(LuoboEntity::new, MobCategory.MONSTER)
+                            .sized(.6f, 2f)
+                            .build(new ResourceLocation(RadishMod.MOD_ID, "luobo").toString()));
 
     public static void register(IEventBus eventBus) {
         ENTITY_TYPES.register(eventBus);

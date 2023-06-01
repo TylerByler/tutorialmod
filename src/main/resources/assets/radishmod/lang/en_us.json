@@ -3,6 +3,7 @@
   "item.radishmod.eight_ball": "Magic Eight Ball",
   "item.radishmod.radish_seeds": "Radish Seeds",
   "item.radishmod.radscal_spawn_egg": "Radscal Spawn Egg",
+  "item.radishmod.luobo_spawn_egg": "Luobo Spawn Egg",
 
   "block.radishmod.compact_radish": "Compact Radishes",
   "block.radishmod.jumpy_block": "Jumpy Block",
@@ -11,5 +12,6 @@
 
   "creativemodetab.radish_tab": "Radish Mod",
 
-  "entity.radishmod.radscal": "Radscal"
+  "entity.radishmod.radscal": "Radscal",
+  "entity.radishmod.luobo": "Luobo"
 }

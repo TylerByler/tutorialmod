@@ -1,0 +1,7 @@
+dimension file: compiles the other components, defines biome selection and probability
+
+dimension type file: sets the dimension attributes like if beds work or if compasses spin around or not
+
+noise settings file: defines the way that the world is generated; this is where to change surface rule values to change the surface blocks from grass to something else
+
+biome file: defines a new biome with attributes that do not have to do with the world gen
